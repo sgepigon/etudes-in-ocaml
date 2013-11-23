@@ -1,5 +1,5 @@
 
-Ocaml etudes
+Ocaml etudes[^etude]
 ============
 
 * 99: Some problems from  
@@ -18,18 +18,15 @@ Ocaml etudes
 * real: worked on code snippets from Real World OCaml  
   https://realworldocaml.org/v1/en/html/
 
-   
- 
-gr1, gr2:
-    ob gr1.native -libs graphics
-    ob gr2.native -libs graphics
-
 Requirements
 ------------
 
  * Core, corebuild, batteries, etc. --- see install instructions at:  
-   https://github.com/realworldocaml/book/wiki/Installation-Instructions
+   https://github.com/realworldocaml/book/wiki/Installation-Instructions  
+
    ```bash
    opam install batteries
    ```
 
+
+[^etude]: Far from *an instrumental musical composition, usually short, of considerable difficulty, and designed to provide practice material for perfecting a particular musical skill* --- but perhaps similar in spirit.
