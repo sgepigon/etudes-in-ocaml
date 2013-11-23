@@ -1,0 +1,38 @@
+
+Yaron Minsky - Effective ML
+http://vimeo.com/14313378
+
+ - interfaces: 
+    * .mli, module interface (type class), forced types
+    * functor: a function from module to module
+    * interface enables well-fitting functors
+ - make illegal states unrepresentable, lean on the type system
+    * enforcing (implicit) invariants: "When state S, there must be thing"
+    * no optional record fields
+    * algebraic data types
+ - code for exhaustiveness
+    * catch-all pattern matching kills type upgrades
+ - opening up module namespaces
+    * stay local
+    * use alias: let module F = Command.Flag in ... F.int ... F.string
+ - make common errors obvious
+    * "use exceptions only when exceptional things happen"
+    * use naming policies to make error/exception signatures plain
+      	  reduce : ... -> 'a option
+	  reduce_exn : ... -> 'a
+    * hygiene
+ - avoid boilerplate
+    * (almost) the same code all over the place
+ - avoid complex type hackery
+    * correctness easily leads to complexity
+ - don't be puritanic about purity
+    * avoiding side effects is good
+    * sometimes side effects are the way to go
+    * segmentation!
+
+ - phantom types -- "type hackery"
+    * coaxing proving power out of the type system
+    * have the compiler prove things for you --> no effect at runtime
+    * capability style access control, another handle with diminished types
+    * constrained interface
+    * uninhabited types
