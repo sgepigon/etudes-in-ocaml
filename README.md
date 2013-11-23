@@ -1,6 +1,15 @@
 
-Ocaml etudes[^etude]
+Ocaml etudes
 ============
+
+**Etude**
+> A ~~musical~~ software composition, usually short, of ~~considerable difficulty~~ some challenge, and designed to provide practice material for perfecting a particular ~~musical~~ programming skill.
+
+Currently just random snippets of code and notes. Perhaps eventually something like a koan thingy, cf.  
+https://github.com/search?q=koan&type=Repositories
+
+ ls -l
+-----------
 
 * 99: Some problems from  
   http://ocaml.org/learn/tutorials/99problems.html
@@ -28,5 +37,3 @@ Requirements
    opam install batteries
    ```
 
-
-[^etude]: Far from *an instrumental musical composition, usually short, of considerable difficulty, and designed to provide practice material for perfecting a particular musical skill* --- but perhaps similar in spirit.
