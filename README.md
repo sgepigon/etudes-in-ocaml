@@ -8,8 +8,7 @@ Ocaml etudes
 Currently just random snippets of code and notes. Perhaps eventually something like a koan thingy, cf.  
 https://github.com/search?q=koan&type=Repositories
 
- ls -l
------------
+Not unlike https://github.com/ajhalme/etudes-in-haskell
 
 * 99: Some problems from  
   http://ocaml.org/learn/tutorials/99problems.html
